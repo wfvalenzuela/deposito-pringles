@@ -55,13 +55,16 @@ footer {
   padding: 20;
 }
 
-.mi-carrusel {
+.mi-carrusel img {
   width: 100%;
   max-width: 450px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(21, 17, 17, 0.15);
+  height: 80vh;
+  object-fit: cover;
 }
+
 
 .contenedor-botones {
   display: flex;
