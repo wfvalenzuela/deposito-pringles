@@ -79,3 +79,15 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+  .grid-botones {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-botones {
+    grid-template-columns: 1fr;
+  }
+}
