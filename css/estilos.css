@@ -3,7 +3,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: aquamarine;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.807)),
+    url("../img/imagen-fondo.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .pagina-inicio {
@@ -52,7 +55,7 @@ footer {
   width: 100%;
   background-color: aliceblue;
   text-align: center;
-  padding: 20;
+  padding: 20px;
 }
 
 .mi-carrusel {
