@@ -51,6 +51,17 @@ header {
   text-align: center;
 }
 
+.btn-primary {
+  background-color: rgb(108, 150, 56);
+  border-color: rgb(108, 150, 56);
+}
+
+.btn-primary:hover {
+  background-color: rgb(243, 194, 53);
+  border-color: rgb(243, 194, 53);
+  color: black;
+}
+
 footer {
   width: 100%;
   background-color: aliceblue;
@@ -93,4 +104,9 @@ footer {
   .grid-botones {
     grid-template-columns: 1fr;
   }
+}
+
+.grid-botones .btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px grey;
 }
